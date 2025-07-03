@@ -3,7 +3,7 @@
 ## 1. Overview
 - **Project:** CleanCity - Waste Pickup Scheduler
 - **Scope:** End-to-end testing of all web application features, including UI, workflow, accessibility, security, and performance.
-- **Team:** Nosipho Mdakane, Steven Odhiambo, Pathiswa Dhulane
+- **Team:** Nosipho Mdakane, Steven Odhiambo, Pathiswa Dlulane
 - **Tools:** Manual testing, React Testing Library (Jest), browser DevTools, accessibility tools (axe, WAVE), Jira or GitHub Kanban
 
 ---
