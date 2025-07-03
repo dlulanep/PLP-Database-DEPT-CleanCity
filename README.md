@@ -1,4 +1,4 @@
-# CleanCity: Waste Pickup Schedulers
+# CleanCity: Waste Pickup Scheduler
 
 A realistic testable web application designed for QA students to practice both manual and automated testing. This React-based application simulates a waste management system for African cities with intentional flaws for testing practice.
 
