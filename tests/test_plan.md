@@ -86,13 +86,13 @@
 
 | Activity                | Start Date | End Date   | Responsible         |
 |-------------------------|------------|------------|---------------------|
-| Test Planning           | 2025-06-26 | 2025-07-02 | QA Team             |
-| Test Case Design        | 2025-07-04 | 2025-07-06 | QA Team             |
-| Test Environment Setup  | 2025-07-04 | 2025-07-05 | QA Team             |
+| Test Planning           | 2025-06-26 | 2025-07-02 | Steven Odhiambo     |
+| Test Case Design        | 2025-07-04 | 2025-07-06 | Nosipho Mdakane     |
+| Test Environment Setup  | 2025-07-04 | 2025-07-05 | Pathiswa Dlulane    |
 | Test Execution          | 2025-07-06 | 2025-07-12 | QA Team             |
 | Defect Reporting        | 2025-07-06 | 2025-07-12 | QA Team             |
 | Regression Testing      | 2025-07-10 | 2025-07-13 | QA Team             |
-| Test Closure/Reporting  | 2025-07-13 | 2025-07-14 | QA Team             |
+| Test Closure/Reporting  | 2025-07-13 | 2025-07-14 | Nosipho Dlulane     |
 | Video Presentation      | 2025-07-14 | 2025-07-15 | QA Team             |
 
 
