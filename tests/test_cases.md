@@ -93,8 +93,8 @@
 - Error: "Pickup already scheduled for this date"
 
 **Actual Result**:  
-**Status**: 🟡 Pending  
-**Tested By**: [Name]
+**Status**:  Failed  
+**Tested By**: Pathiswa Dlulane
 
 ---
 
@@ -115,8 +115,8 @@
 - Environmental metrics displayed
 
 **Actual Result**:  
-**Status**: 🟡 Pending  
-**Tested By**: [Name]
+**Status**:  ✅ Passed 
+**Tested By**: Pathiswa Dlulane
 
 ---
 
