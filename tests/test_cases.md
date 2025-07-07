@@ -28,8 +28,8 @@
 - User is redirected to login/dashboard
 
 **Actual Result**:  
-**Status**: 🟡 Pending  
-**Tested By**: [Name]
+**Status**:✅  Passed 
+**Tested By**: Pathiswa Dlulane
 
 ---
 
@@ -49,8 +49,8 @@
 - User remains on login page
 
 **Actual Result**:  
-**Status**: 🟡 Pending  
-**Tested By**: [Name]
+**Status**: ✅ Passed  
+**Tested By**: Pathiswa Dlulane
 
 ---
 
@@ -75,8 +75,8 @@
 - Status: "Pending"
 
 **Actual Result**:  
-**Status**: 🟡 Pending  
-**Tested By**: [Name]
+**Status**:  ✅ Passed 
+**Tested By**: Pathiswa Dlulane
 
 ---
 
