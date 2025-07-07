@@ -92,8 +92,9 @@
 **Expected Result**:
 - Error: "Pickup already scheduled for this date"
 
-**Actual Result**:  
-**Status**:  Failed  
+**Actual Result**:  Multiple pickups can be scheduled for the same date, No error or warning is shown to the user.
+
+**Status**: ❌ Failed  
 **Tested By**: Pathiswa Dlulane
 
 ---
