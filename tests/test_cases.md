@@ -27,7 +27,7 @@
 - User is created and saved in `cleanCity_users`
 - User is redirected to login/dashboard
 
-**Actual Result**:  
+**Actual Result**: Registration successful! You can now log in with your new account.
 **Status**:✅  Passed 
 **Tested By**: Pathiswa Dlulane
 
@@ -48,7 +48,7 @@
 - Error message shown: "Invalid credentials"
 - User remains on login page
 
-**Actual Result**:  
+**Actual Result**:  Incorrect password. Please try again.
 **Status**: ✅ Passed  
 **Tested By**: Pathiswa Dlulane
 
@@ -74,7 +74,7 @@
 - Request saved in `cleanCity_pickupRequests`
 - Status: "Pending"
 
-**Actual Result**:  
+**Actual Result**:  Request Submitted Successfully! Your waste pickup request has been received. We'll contact you soon to confirm the details.
 **Status**:  ✅ Passed 
 **Tested By**: Pathiswa Dlulane
 
