@@ -179,8 +179,8 @@
 - Table lists all requests from all users
 
 **Actual Result**:  
-**Status**: 🟡 Pending  
-**Tested By**: [Name]
+**Status**: ✅ Passed  
+**Tested By**: Steven Odhiambo
 
 ---
 
@@ -246,9 +246,3 @@
 
 ---
 
-## 🧪 Notes
-
-- Replace `[Name]` with the team member assigned  
-- Update **Actual Result** and **Status** during test execution:  
-  ✅ Passed | ❌ Failed | 🟡 Pending  
-- Screenshots of failed tests can be linked in final report  
