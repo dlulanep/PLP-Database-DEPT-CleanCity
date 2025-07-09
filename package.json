@@ -38,6 +38,7 @@
     ]
   },
   "homepage": "."
+  } 
   // .eslintrc.json
 {
   // ...existing config...
