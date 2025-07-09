@@ -7,7 +7,7 @@ import Awareness from './components/Awareness';
 import Admin from './components/Admin';
 import Login from './components/Login';
 import Register from './components/Register';
-//import dataService from './services/dataService';
+import dataService from './services/dataService';
 import LandingPage from './components/LandingPage';
 import BlogHome from './components/blog/BlogHome';
 import BlogArticle from './components/blog/BlogArticle';
