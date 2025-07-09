@@ -38,4 +38,13 @@
     ]
   },
   "homepage": "."
+  // .eslintrc.json
+{
+  // ...existing config...
+  "rules": {
+    // ...existing rules...
+    "no-warning-comments": "warn"
+  }
+}
+
 } 
