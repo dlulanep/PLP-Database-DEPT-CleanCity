@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import './App.css';
 import Home from './components/Home';
 import Dashboard from './components/Dashboard';
@@ -15,9 +15,8 @@ import BlogAdmin from './components/blog/BlogAdmin';
 import Profile from './components/profile/Profile';
 import CommunityFeed from './components/community/CommunityFeed';
 import NotificationBell from './components/NotificationBell';
-import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes, Link, useNavigate } from 'react-router-dom';
 import { getCurrentUser, isAdmin, logout as authLogout } from './services/authService';
-import { useNavigate } from 'react-router-dom';
 
 function App() {
   return (
@@ -63,12 +62,12 @@ function AppContent() {
         <Route path="/home" element={<Home user={user} />} />
         <Route path="/dashboard" element={user ? <Dashboard user={user} /> : <Login onLogin={handleLogin} />} />
         <Route path="/blog" element={<BlogHome user={user} />} />
-        <Route path="/blog/admin" element={isAdmin() ? <BlogAdmin user={user} /> : <Login onLogin={handleLogin} />} />
+        <Route path="/blog/admin" element={user && isAdmin() ? <BlogAdmin user={user} /> : <Login onLogin={handleLogin} />} />
         <Route path="/blog/:id" element={<BlogArticle user={user} />} />
         <Route path="/community" element={<CommunityFeed user={user} />} />
         <Route path="/awareness" element={<Awareness />} />
         <Route path="/feedback" element={user ? <Feedback user={user} /> : <Login onLogin={handleLogin} />} />
-        <Route path="/admin" element={isAdmin() ? <Admin user={user} /> : <Login onLogin={handleLogin} />} />
+        <Route path="/admin" element={user && isAdmin() ? <Admin user={user} /> : <Login onLogin={handleLogin} />} />
         <Route path="/profile" element={user ? <Profile user={user} /> : <Login onLogin={handleLogin} />} />
         <Route path="/login" element={<Login onLogin={handleLogin} />} />
         <Route path="/register" element={<Register onRegister={() => navigate('/login')} />} />
@@ -77,4 +76,4 @@ function AppContent() {
   );
 }
 
-export default App; 
+export default App;
