@@ -96,7 +96,7 @@
 **Actual**: There is a duplicate of a schedule pickup
 
 **Severity**: High
-![Duplicate image]()
+![Duplicate image](https://github.com/dlulanep/PLP-Database-DEPT-CleanCity/blob/160e315eda566fd21f6f970ffacc326eaac4f610/tests/Screenshots/Screenshot%202025-07-09%20192819.png)
 
 ---
 
