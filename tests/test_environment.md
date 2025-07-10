@@ -1,4 +1,4 @@
-## 5. Test Environment
+##  Test Environment
 
 The test environment for the CleanCity project ensures that all features are validated under realistic and varied conditions to simulate actual user experiences. The following components define the test environment:
 
