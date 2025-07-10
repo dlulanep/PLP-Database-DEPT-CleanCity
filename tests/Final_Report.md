@@ -81,18 +81,22 @@
 
 ### Bug Report 1
 
-**Title**: Refreshing the page removes the already selected filter parameters
+**Title**: The System accepts duplicated schedule
 
 **Steps to Reproduce**:
-1. Select price range "1000-1500", brand iphone
-2. Click "Apply Filters"
-3. Refresh the page
+1.	Go to the CleanCity Portal
+2.	Request waste pickup with the same time twice
+3.	Submit Request
+4.	Go to the Admin portal
+5.	Look for the orders if there is a duplicate
 
-**Expected**: Should display iPhone 14 Pro ($1499)  after the refresh
 
-**Actual**: No product is displayed
+**Expected**: System should not accept a duplicate waste pickup
 
-**Severity**: Medium
+**Actual**: There is a duplicate of a schedule pickup
+
+**Severity**: High
+![Duplicate image]()
 
 ---
 
