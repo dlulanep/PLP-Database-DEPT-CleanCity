@@ -79,11 +79,20 @@
 
 ## 4. Bugs & Issues
 
-| ID   | Description                                  | Severity | Status   | Notes                |
-|------|----------------------------------------------|----------|----------|----------------------|
-| 001  | [Example] Dashboard table not updating live  | Medium   | Open     | Needs investigation  |
-| 002  | [Example] Password field not masked          | Low      | Closed   | Fixed in v1.0.1      |
-| ...  | ...                                          | ...      | ...      | ...                  |
+### Bug Report 1
+
+**Title**: Refreshing the page removes the already selected filter parameters
+
+**Steps to Reproduce**:
+1. Select price range "1000-1500", brand iphone
+2. Click "Apply Filters"
+3. Refresh the page
+
+**Expected**: Should display iPhone 14 Pro ($1499)  after the refresh
+
+**Actual**: No product is displayed
+
+**Severity**: Medium
 
 ---
 
