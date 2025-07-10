@@ -178,10 +178,12 @@
 **Expected Result**:
 - Table lists all requests from all users
 
+![TC-ADMIN-001 Image](https://github.com/dlulanep/PLP-Database-DEPT-CleanCity/blob/8cf3384fcb6d0ce145937ece7b2e677ac6d60ec8/tests/Screenshots/Screenshot%202025-07-08%20221811.png)
+
 **Actual Result**:  
 **Status**: ✅ Passed  
 **Tested By**: Steven Odhiambo
-![TC-ADMIN-001 Image](https://github.com/dlulanep/PLP-Database-DEPT-CleanCity/blob/8cf3384fcb6d0ce145937ece7b2e677ac6d60ec8/tests/Screenshots/Screenshot%202025-07-08%20221811.png)
+
 ---
 
 ## 🔔 Notification System
