@@ -181,7 +181,7 @@
 **Actual Result**:  
 **Status**: ✅ Passed  
 **Tested By**: Steven Odhiambo
-
+![TC-ADMIN-001 Image]
 ---
 
 ## 🔔 Notification System
