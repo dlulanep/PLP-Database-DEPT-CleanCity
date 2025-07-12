@@ -27,9 +27,9 @@
 - User is created and saved in `cleanCity_users`
 - User is redirected to login/dashboard
 
-**Actual Result**:  
-**Status**: 🟡 Pending  
-**Tested By**: [Name]
+**Actual Result**: Registration successful! You can now log in with your new account.
+**Status**:✅  Passed 
+**Tested By**: Pathiswa Dlulane
 
 ---
 
@@ -48,9 +48,9 @@
 - Error message shown: "Invalid credentials"
 - User remains on login page
 
-**Actual Result**:  
-**Status**: 🟡 Pending  
-**Tested By**: [Name]
+**Actual Result**:  Incorrect password. Please try again.
+**Status**: ✅ Passed  
+**Tested By**: Pathiswa Dlulane
 
 ---
 
@@ -74,9 +74,9 @@
 - Request saved in `cleanCity_pickupRequests`
 - Status: "Pending"
 
-**Actual Result**:  
-**Status**: 🟡 Pending  
-**Tested By**: [Name]
+**Actual Result**:  Request Submitted Successfully! Your waste pickup request has been received. We'll contact you soon to confirm the details.
+**Status**:  ✅ Passed 
+**Tested By**: Pathiswa Dlulane
 
 ---
 
@@ -92,9 +92,10 @@
 **Expected Result**:
 - Error: "Pickup already scheduled for this date"
 
-**Actual Result**:  
-**Status**: 🟡 Pending  
-**Tested By**: [Name]
+**Actual Result**:  Multiple pickups can be scheduled for the same date, No error or warning is shown to the user.
+
+**Status**: ❌ Failed  
+**Tested By**: Pathiswa Dlulane
 
 ---
 
@@ -115,8 +116,8 @@
 - Environmental metrics displayed
 
 **Actual Result**:  
-**Status**: 🟡 Pending  
-**Tested By**: [Name]
+**Status**:  ✅ Passed 
+**Tested By**: Pathiswa Dlulane
 
 ---
 
@@ -177,9 +178,11 @@
 **Expected Result**:
 - Table lists all requests from all users
 
+![TC-ADMIN-001 Image](https://github.com/dlulanep/PLP-Database-DEPT-CleanCity/blob/8cf3384fcb6d0ce145937ece7b2e677ac6d60ec8/tests/Screenshots/Screenshot%202025-07-08%20221811.png)
+
 **Actual Result**:  
-**Status**: 🟡 Pending  
-**Tested By**: [Name]
+**Status**: ✅ Passed  
+**Tested By**: Steven Odhiambo
 
 ---
 
@@ -245,9 +248,3 @@
 
 ---
 
-## 🧪 Notes
-
-- Replace `[Name]` with the team member assigned  
-- Update **Actual Result** and **Status** during test execution:  
-  ✅ Passed | ❌ Failed | 🟡 Pending  
-- Screenshots of failed tests can be linked in final report  
