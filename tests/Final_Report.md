@@ -135,6 +135,8 @@ Add appropriate alt text for all images or use alt="" for decorative ones.
 Severity: Medium
 Status: Open
 
+Image Alt: https://github.com/dlulanep/PLP-Database-DEPT-CleanCity/blob/main/tests/Screenshots/Image_%20Alt.PNG
+
 Issue Link: https://github.com/dlulanep/PLP-Database-DEPT-CleanCity/issues/3
 
 
