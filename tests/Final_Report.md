@@ -13,9 +13,11 @@
 | Test Type         | Total | Passed | Failed | Blocked | Not Run |
 |-------------------|-------|--------|--------|---------|---------|
 | Unit (Jest)       |   X   |   X    |   X    |    0    |    0    |
-| Manual UI         |   X   |   X    |   X    |    0    |    0    |
 | Accessibility  |   5   |   4     |   1     | 0    |
----
+
+| Manual UI   |  4   |   2  |   2  |  0   |   0    
+  |
+--- 
 
 ## 2. Unit Test Results (Jest)
 
@@ -134,6 +136,45 @@ Severity: Medium
 Status: Open
 
 Issue Link: https://github.com/dlulanep/PLP-Database-DEPT-CleanCity/issues/3
+
+
+Bug Report 3
+
+**Title**: Functional Bug – Form Accepts Past and Blank Dates
+
+**Description**:
+During manual UI testing on the Netlify-deployed form, it was found that the system allows users to submit a form with either:
+
+A date in the past (e.g., 30/06/2025)
+
+No date input at all (blank date field)
+
+This undermines the expected validation behavior, especially when future dates are required for the form's purpose (e.g., scheduling or planning).
+
+**Steps to Reproduce**:
+
+Open the form in any modern browser (e.g., Google Chrome).
+
+Scroll to the date input field.
+
+Enter a past date (e.g., 30/06/2025) or leave the field blank.
+
+Click the Submit button.
+
+**Expected Result**:
+
+The form should prevent submission and display a validation error when the date is in the past or when left empty.
+
+**Actual Result**:
+
+The form accepts both past dates and blank fields, allowing incomplete or invalid data to be submitted.
+
+**Severity**:
+Medium – This can lead to incorrect data records and scheduling conflicts.
+
+Status:
+Open
+
 ---
 
 ## 5. Recommendations
@@ -154,7 +195,13 @@ Additionally:
 
 - Run Lighthouse and axe DevTools regularly to catch accessibility regressions.
 
+- Add client-side and server-side validation to ensure the date field:
 
+- Does not accept dates earlier than the current date.
+
+- Is marked as a required field.
+
+- Consider using HTML5 attributes like required and min on the date input, backed by logic validation in JavaScript or backend code.
 
 ---
 
