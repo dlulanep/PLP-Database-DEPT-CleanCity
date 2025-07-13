@@ -98,15 +98,17 @@
 **Severity**: High
 ![Duplicate image](https://github.com/dlulanep/PLP-Database-DEPT-CleanCity/blob/160e315eda566fd21f6f970ffacc326eaac4f610/tests/Screenshots/Screenshot%202025-07-09%20192819.png)
 
+Issue Link: https://github.com/dlulanep/PLP-Database-DEPT-CleanCity/issues/1
+
 
 Bug Report 2
 
-Title: Accessibility Bug – Missing alt Attributes on Images
+**Title**: Accessibility Bug – Missing alt Attributes on Images
 
-Description:
+**Description**:
 During manual accessibility testing, several images were found without alt attributes, which makes them unreadable by screen readers and violates WCAG 2.1 Level AA guidelines.
 
-Steps to Reproduce:
+**Steps to Reproduce**:
 
 Open the website in Google Chrome.
 
@@ -114,15 +116,15 @@ Right-click > Inspect → DevTools.
 
 Go to the "Issues" tab.
 
-Observe: Multiple warnings about missing alt attributes.
+**Observe**: Multiple warnings about missing alt attributes.
 
-Expected Result:
+**Expected Result**:
 All meaningful images should have descriptive alt attributes.
 
-Actual Result:
+**Actual Result**:
 Several images are missing alt attributes.
 
-Impact:
+**Severity**:
 Medium – Affects screen reader users and may reduce the accessibility compliance of the site.
 
 Recommendation:
