@@ -157,7 +157,7 @@ Open the form in any modern browser (e.g., Google Chrome).
 
 Scroll to the date input field.
 
-Enter a past date (e.g., 30/06/2025) or leave the field blank.
+Enter a past date (e.g., 01/07/2025) or leave the field blank.
 
 Click the Submit button.
 
@@ -175,6 +175,9 @@ Medium – This can lead to incorrect data records and scheduling conflicts.
 Status:
 Open
 
+Form Validation: https://github.com/dlulanep/PLP-Database-DEPT-CleanCity/blob/main/tests/Screenshots/Form_Validation%20_Testing_Date.PNG
+
+Issue Link: https://github.com/dlulanep/PLP-Database-DEPT-CleanCity/issues/4
 ---
 
 ## 5. Recommendations
