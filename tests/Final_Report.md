@@ -2,9 +2,9 @@
 
 **Project:** CleanCity: Waste Pickup Scheduler  
 **Date:** July 4, 2025  
-**Tested By:** Pathiswa Dlulane  
+**Tested By:** Pathiswa Dlulane  , Nosipho Mdakanbe
 **Group Members:**Nosipho, Steven Odhiambo, Pathiswa Dlulane
-**Test Framework:** Jest (unit tests), Manual UI Testing
+**Test Framework:** Automated Jest (unit tests), Manual UI Testing, 
 
 ---
 
@@ -14,7 +14,7 @@
 |-------------------|-------|--------|--------|---------|---------|
 | Unit (Jest)       |   X   |   X    |   X    |    0    |    0    |
 | Manual UI         |   X   |   X    |   X    |    0    |    0    |
-
+| Accessibility  |   5   |   4     |   1     | 0    |
 ---
 
 ## 2. Unit Test Results (Jest)
@@ -98,6 +98,40 @@
 **Severity**: High
 ![Duplicate image](https://github.com/dlulanep/PLP-Database-DEPT-CleanCity/blob/160e315eda566fd21f6f970ffacc326eaac4f610/tests/Screenshots/Screenshot%202025-07-09%20192819.png)
 
+
+Bug Report 2
+
+Title: Accessibility Bug – Missing alt Attributes on Images
+
+Description:
+During manual accessibility testing, several images were found without alt attributes, which makes them unreadable by screen readers and violates WCAG 2.1 Level AA guidelines.
+
+Steps to Reproduce:
+
+Open the website in Google Chrome.
+
+Right-click > Inspect → DevTools.
+
+Go to the "Issues" tab.
+
+Observe: Multiple warnings about missing alt attributes.
+
+Expected Result:
+All meaningful images should have descriptive alt attributes.
+
+Actual Result:
+Several images are missing alt attributes.
+
+Impact:
+Medium – Affects screen reader users and may reduce the accessibility compliance of the site.
+
+Recommendation:
+Add appropriate alt text for all images or use alt="" for decorative ones.
+
+Severity: Medium
+Status: Open
+
+Issue Link: https://github.com/dlulanep/PLP-Database-DEPT-CleanCity/issues/3
 ---
 
 ## 5. Recommendations
@@ -105,6 +139,20 @@
 - Add more unit tests for form validation and business logic in `script.js`.
 - Consider automated end-to-end tests (e.g., Cypress, Playwright) for UI flows.
 - Improve error handling for network failures.
+
+To improve accessibility and comply with WCAG 2.1 Level AA standards:
+
+- Ensure all images have descriptive alt attributes that convey the meaning or purpose of the image. This allows screen readers to interpret the content for visually impaired users and improves usability for all users relying on assistive technologies.
+
+Additionally:
+
+- Decorative images can use alt="" to avoid cluttering screen reader output.
+
+- For icons used as buttons or links, ensure they have aria-labels or text equivalents.
+
+- Run Lighthouse and axe DevTools regularly to catch accessibility regressions.
+
+
 
 ---
 
