@@ -25,8 +25,8 @@
 
 | Test File         | Test Case Description                 | Status  |
 |-------------------|--------------------------------------|---------|
-| hello.test.js     | "hello world" sample test            | Passed  |
-| ...               | ...                                  | ...     |
+| Validation.js     | Testing the validation form          | Passed  |
+| Confirm_pickup.js | Testing confirm pickup sample        | Passed  |
 
 **Coverage Summary:**  
 - Statements: XX%
