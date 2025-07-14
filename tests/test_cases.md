@@ -245,7 +245,9 @@
 - Screen reader reads labels correctly
 
 **Actual Result**:  Screen reader reads labels correctly
+
 **Status**:   ✅ Passed 
+
 **Tested By**: Steven Odhiambo
 
 ---
