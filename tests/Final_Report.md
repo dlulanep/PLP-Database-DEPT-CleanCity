@@ -267,6 +267,30 @@ The system **accepts special characters** in the name fields without any validat
 
 Issue link: https://github.com/dlulanep/PLP-Database-DEPT-CleanCity/issues/7#issue-3227674783
 
+### 🐞 Bug Report 7
+Password field accepts less than 6 characters
+
+#### 📝 Steps to Reproduce
+
+1. Go to the **Registration** page  
+2. Enter a password with **fewer than 6 characters**  
+3. Submit the form
+
+#### ✅ Expected Behavior
+
+The system should **enforce a minimum password length** (e.g., 6 characters) and prevent submission if the requirement is not met.
+
+
+#### ❌ Actual Behavior
+
+Registration **succeeds** even with a password that is **too short**.
+
+#### 🔥 Severity
+
+**Medium**
+![](https://github.com/dlulanep/PLP-Database-DEPT-CleanCity/blob/1f4d4de4b558b9fcf9afd767afaa778da52765ec/tests/Screenshots/Password_Screenshot.png)
+Issue Link: https://github.com/dlulanep/PLP-Database-DEPT-CleanCity/issues/8#issue-3227689541
+
 
 ---
 
