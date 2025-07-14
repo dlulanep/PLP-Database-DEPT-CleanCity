@@ -265,7 +265,7 @@ The system **accepts special characters** in the name fields without any validat
 
 ![](https://github.com/dlulanep/PLP-Database-DEPT-CleanCity/blob/508fb35f79e699d9bd8c3d3345500020dbd63ca2/tests/Screenshots/Pickup_Name.png)
 
-Issue link: https://github.com/dlulanep/PLP-Database-DEPT-CleanCity/issues/6#issue-3227600795
+Issue link: https://github.com/dlulanep/PLP-Database-DEPT-CleanCity/issues/7#issue-3227674783
 
 
 ---
