@@ -340,7 +340,115 @@ The **script executes**, creating a **cross-site scripting (XSS)** vulnerability
 
 Issue Link: https://github.com/dlulanep/PLP-Database-DEPT-CleanCity/issues/10#issue-3227848101
 
+### 🐞 Bug Report 10
+No error message for invalid login credentials
 
+#### 📝 Steps to Reproduce
+
+1. Go to the **Login** page  
+2. Enter **incorrect credentials**  
+3. Submit the form
+
+#### ✅ Expected Behavior
+
+The user should see a **clear error message** indicating that the **login credentials are invalid**.
+
+#### ❌ Actual Behavior
+
+The page simply **reloads without any feedback**, leaving the user unsure of what went wrong.
+
+#### 🔥 Severity
+
+**Medium**
+
+Issue Link: https://github.com/dlulanep/PLP-Database-DEPT-CleanCity/issues/11#issue-3228238828
+
+
+### 🐞 Bug Report 11
+Tab order skips key form fields
+
+#### 📝 Steps to Reproduce
+
+1. Open any form (e.g., **Registration**, **Pickup Request**)  
+2. Use the **Tab** key to navigate through the form fields
+3. 
+#### ✅ Expected Behavior
+
+The **tab order** should follow a **logical sequence**, moving through all fields in the correct order.
+
+#### ❌ Actual Behavior
+
+Some fields are **skipped** or appear **out of sequence**, affecting keyboard navigation and accessibility.
+
+#### 🔥 Severity
+**Low**
+
+Issue Link: https://github.com/dlulanep/PLP-Database-DEPT-CleanCity/issues/12#issue-3228249013
+
+### 🐞 Bug Report 12
+Color contrast fails accessibility standards
+
+#### 📝 Steps to Reproduce
+
+1. Open the app on any page  
+2. Use an accessibility tool such as **axe** or **WAVE** to inspect color contrast
+
+#### ✅ Expected Behavior
+
+All text should meet **WCAG AA** contrast ratio requirements for readability and accessibility.
+
+#### ❌ Actual Behavior
+
+Some **text/background combinations** fail the required contrast ratio, making content harder to read for users with visual impairments.
+
+
+#### 🔥 Severity
+**Low**
+
+Issue Link: https://github.com/dlulanep/PLP-Database-DEPT-CleanCity/issues/13#issue-3228259928
+
+### 🐞 Bug Report 13
+No confirmation dialog before deleting a request
+
+#### 📝 Steps to Reproduce
+
+1. Log in as **Admin**  
+2. **Delete a request**
+
+#### ✅ Expected Behavior
+
+The system should prompt the user with a **confirmation dialog** before permanently deleting a request.
+
+#### ❌ Actual Behavior
+
+The request is **deleted immediately** without any warning or confirmation prompt.
+
+#### 🔥 Severity
+**Medium**
+
+Issue Link: https://github.com/dlulanep/PLP-Database-DEPT-CleanCity/issues/14#issue-3228266906
+
+### 🐞 Bug Report 14
+LocalStorage not cleared on logout
+
+#### 📝 Steps to Reproduce
+
+1. Log in and perform some actions  
+2. Log out of the application  
+3. Check the browser's **localStorage**
+   
+#### ✅ Expected Behavior
+
+All user and request data should be **cleared from localStorage** upon logout to maintain privacy and security.
+
+#### ❌ Actual Behavior
+
+Sensitive data **remains in localStorage** after logout, posing a potential security and privacy risk.
+
+#### 🔥 Severity
+**Medium**
+
+Issue Link: https://github.com/dlulanep/PLP-Database-DEPT-CleanCity/issues/15#issue-3228272646
 ---
 
 ## 5. Recommendations
