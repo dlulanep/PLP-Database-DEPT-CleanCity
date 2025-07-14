@@ -182,7 +182,7 @@ Open
 Issue Link: https://github.com/dlulanep/PLP-Database-DEPT-CleanCity/issues/4
 
 
-# 🐞 Bug Report 3
+# 🐞 Bug Report 4
 
 ## Title  
 **Dashboard filter by 'Eldoret' does not return results**
@@ -209,6 +209,35 @@ No results are shown, even though data for **"Eldoret"** exists in the system.
 ![Alt Image](https://github.com/dlulanep/PLP-Database-DEPT-CleanCity/blob/7014514b47065cbc9be1204ba54e41c643464ad9/tests/Screenshots/Eldoret_screenshot.png)
 
 Issue Link:https://github.com/dlulanep/PLP-Database-DEPT-CleanCity/issues/5#issue-3227561216
+
+
+# 🐞 Bug Report 5
+
+## Title  
+**Admin status update does not refresh dashboard**
+
+
+## 📝 Steps to Reproduce
+
+1. Log in as **Admin**  
+2. Change the **status** of a request  
+3. Observe the **dashboard**
+
+## ✅ Expected Behavior
+
+The dashboard should **update immediately** to reflect the **new status** after the change.
+
+
+## ❌ Actual Behavior
+
+The dashboard does **not update** until it is **manually refreshed**.
+
+## 🔥 Severity
+**High**
+
+![Alt image](https://github.com/dlulanep/PLP-Database-DEPT-CleanCity/blob/015c3973396a3917492695a3dde378943f5b055d/tests/Screenshots/Admin_screenshot.png)
+
+Issue Link: https://github.com/dlulanep/PLP-Database-DEPT-CleanCity/issues/6#issue-3227600795
 
 ---
 
