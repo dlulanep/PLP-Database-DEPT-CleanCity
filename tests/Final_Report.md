@@ -286,9 +286,10 @@ The system should **enforce a minimum password length** (e.g., 6 characters) and
 Registration **succeeds** even with a password that is **too short**.
 
 #### 🔥 Severity
-
 **Medium**
+
 ![](https://github.com/dlulanep/PLP-Database-DEPT-CleanCity/blob/1f4d4de4b558b9fcf9afd767afaa778da52765ec/tests/Screenshots/Password_Screenshot.png)
+
 Issue Link: https://github.com/dlulanep/PLP-Database-DEPT-CleanCity/issues/8#issue-3227689541
 
 
