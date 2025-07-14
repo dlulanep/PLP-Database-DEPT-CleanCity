@@ -316,6 +316,30 @@ The system **accepts feedback** even when the **Request ID is invalid**.
 Issue Link: https://github.com/dlulanep/PLP-Database-DEPT-CleanCity/issues/9#issue-3227801817
 
 
+### 🐞 Bug Report 9
+XSS vulnerability in feedback/comments fields
+
+#### 📝 Steps to Reproduce
+
+1. Enter `<script>alert(1)</script>` in the **feedback/comments** field  
+2. Submit the form  
+3. View the submitted feedback as **Admin** or on the **Dashboard**
+
+
+#### ✅ Expected Behavior
+
+The input should be **sanitized**, and **script tags should not execute** under any circumstances.
+
+#### ❌ Actual Behavior
+
+The **script executes**, creating a **cross-site scripting (XSS)** vulnerability and a **security risk**.
+
+#### 🔥 Severity
+
+**High**
+
+Issue Link: https://github.com/dlulanep/PLP-Database-DEPT-CleanCity/issues/10#issue-3227848101
+
 
 ---
 
