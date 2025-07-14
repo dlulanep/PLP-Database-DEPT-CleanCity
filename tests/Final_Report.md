@@ -180,6 +180,40 @@ Open
 ![Form Validation](https://github.com/dlulanep/PLP-Database-DEPT-CleanCity/blob/main/tests/Screenshots/Form_Validation%20_Testing_Date.PNG)
 
 Issue Link: https://github.com/dlulanep/PLP-Database-DEPT-CleanCity/issues/4
+
+
+# 🐞 Bug Report 3
+
+## Title  
+**Dashboard filter by 'Eldoret' does not return results**
+
+
+
+## 📝 Steps to Reproduce
+
+1. Go to the **Dashboard**  
+2. Filter requests by location **"Eldoret"**  
+3. Observe the results
+
+---
+
+## ✅ Expected Behavior
+
+Requests from **"Eldoret"** should be displayed if data exists for that location.
+
+
+## ❌ Actual Behavior
+
+No results are shown, even though data for **"Eldoret"** exists in the system.
+
+
+
+## 🔥 Severity
+
+![Alt Image]()
+
+**High**
+
 ---
 
 ## 5. Recommendations
