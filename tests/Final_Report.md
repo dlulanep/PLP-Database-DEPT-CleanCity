@@ -13,9 +13,8 @@
 | Test Type         | Total | Passed | Failed | Blocked | Not Run |
 |-------------------|-------|--------|--------|---------|---------|
 | Unit (Jest)       |   X   |   X    |   X    |    0    |    0    |
-| Accessibility  |   5   |   4     |   1     | 0    |
-
-| Manual UI   |  4   |   2  |   2  |  0   |   0    
+| Accessibility     |   5   |   4     |   1     | 0    |
+| Manual UI         |  4   |   2  |   2  |  0   |   0    
   |
 --- 
 
@@ -28,18 +27,12 @@
 | Validation.js     | Testing the validation form          | Passed  |
 | Confirm_pickup.js | Testing confirm pickup sample        | Passed  |
 
-## 📊 Coverage Summary
+### 📊 Coverage Summary
+Statements: 20%
 
-```mermaid
-pie  
-    title Coverage Summary 
-    "Statements" : 20 
-    "Branches" : 10  
-    "Functions" : 70
-    "Lines" : 0
+Branches: 10%
 
-
----
+Functions: 70%
 
 ## 3. Manual UI Test Results
 
