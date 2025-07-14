@@ -187,8 +187,6 @@ Issue Link: https://github.com/dlulanep/PLP-Database-DEPT-CleanCity/issues/4
 ## Title  
 **Dashboard filter by 'Eldoret' does not return results**
 
-
-
 ## 📝 Steps to Reproduce
 
 1. Go to the **Dashboard**  
@@ -201,18 +199,16 @@ Issue Link: https://github.com/dlulanep/PLP-Database-DEPT-CleanCity/issues/4
 
 Requests from **"Eldoret"** should be displayed if data exists for that location.
 
-
 ## ❌ Actual Behavior
 
 No results are shown, even though data for **"Eldoret"** exists in the system.
 
-
-
 ## 🔥 Severity
 
-![Alt Image]()
-
 **High**
+![Alt Image](https://github.com/dlulanep/PLP-Database-DEPT-CleanCity/blob/7014514b47065cbc9be1204ba54e41c643464ad9/tests/Screenshots/Eldoret_screenshot.png)
+
+Issue Link:https://github.com/dlulanep/PLP-Database-DEPT-CleanCity/issues/5#issue-3227561216
 
 ---
 
