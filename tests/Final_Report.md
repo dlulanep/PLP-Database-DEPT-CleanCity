@@ -292,6 +292,30 @@ Registration **succeeds** even with a password that is **too short**.
 
 Issue Link: https://github.com/dlulanep/PLP-Database-DEPT-CleanCity/issues/8#issue-3227689541
 
+### 🐞 Bug Report 8
+Feedback form accepts invalid Request IDs
+
+#### 📝 Steps to Reproduce
+
+1. Go to the **Feedback** form  
+2. Enter an **invalid Request ID** (e.g., `"ABC123"`)  
+3. Submit the form
+
+#### ✅ Expected Behavior
+
+The system should **validate the Request ID** and **reject invalid** ones with an appropriate error message.
+
+#### ❌ Actual Behavior
+
+The system **accepts feedback** even when the **Request ID is invalid**.
+
+#### 🔥 Severity
+
+**Medium**
+
+Issue Link: https://github.com/dlulanep/PLP-Database-DEPT-CleanCity/issues/9#issue-3227801817
+
+
 
 ---
 
