@@ -29,10 +29,12 @@
 | Confirm_pickup.js | Testing confirm pickup sample        | Passed  |
 
 **Coverage Summary:**  
-- Statements: XX%
-- Branches: XX%
-- Functions: XX%
-- Lines: XX%
+pie  
+    title Coverage Summary 
+    "Statements" :20 
+    "Branches" :10  
+    "Functions" :70
+    "Lines" :0
 
 ---
 
