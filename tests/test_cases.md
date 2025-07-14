@@ -223,8 +223,10 @@
 - Navigation menu appears full-width and accessible
 
 **Actual Result**:  
-**Status**: 🟡 Pending  
-**Tested By**: [Name]
+**Status**: ✅ Passed  
+**Tested By**: Steven Odhiambo
+
+![](https://github.com/dlulanep/PLP-Database-DEPT-CleanCity/blob/c84a925b1d5d163c206cf15a0142e8aa27482313/tests/Screenshots/Responsiveness_Screenshot.png)
 
 ---
 
