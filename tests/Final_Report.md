@@ -449,6 +449,53 @@ Sensitive data **remains in localStorage** after logout, posing a potential secu
 **Medium**
 
 Issue Link: https://github.com/dlulanep/PLP-Database-DEPT-CleanCity/issues/15#issue-3228272646
+
+
+### 🐞 Bug Report 15
+Responsive layout breaks on iPhone SE
+
+#### 📝 Steps to Reproduce
+
+1. Open the app on an **iPhone SE** or simulate it using browser **DevTools**  
+2. Navigate to any page that contains **cards** or **grids**
+
+
+#### ✅ Expected Behavior
+
+The layout should **adapt to small screen sizes**, keeping all content **readable and properly aligned**.
+
+#### ❌ Actual Behavior
+
+Cards **overflow** or **overlap**, breaking the layout on small screens like the iPhone SE.
+
+
+#### 🔥 Severity
+**Low**
+
+Isue Link: https://github.com/dlulanep/PLP-Database-DEPT-CleanCity/issues/16#issue-3228288659
+
+
+### 🐞 Bug Report 16
+No feedback if network is offline
+
+#### 📝 Steps to Reproduce
+
+1. **Disconnect** your network connection  
+2. Attempt to **submit any form** in the application
+
+#### ✅ Expected Behavior
+
+The system should display an **error message** or **offline warning**, informing the user that the submission failed due to network issues.
+
+#### ❌ Actual Behavior
+
+No feedback is shown, and the form appears to **submit successfully**, even though the network is offline.
+
+#### 🔥 Severity
+
+**Low**
+Issue Link: https://github.com/dlulanep/PLP-Database-DEPT-CleanCity/issues/17#issue-3228299201
+
 ---
 
 ## 5. Recommendations
