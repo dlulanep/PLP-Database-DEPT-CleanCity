@@ -239,6 +239,35 @@ The dashboard does **not update** until it is **manually refreshed**.
 
 Issue Link: https://github.com/dlulanep/PLP-Database-DEPT-CleanCity/issues/6#issue-3227600795
 
+### 🐞 Bug Report 6
+No validation for special characters in name fields
+
+#### 📝 Steps to Reproduce
+
+1. Go to **Registration** or **Pickup Request** form  
+2. Enter special characters (e.g., `@#$%`) in the **name fields**  
+3. Submit the form
+
+
+#### ✅ Expected Behavior
+
+The system should **reject names** that contain **special characters** and display a validation error.
+
+
+#### ❌ Actual Behavior
+
+The system **accepts special characters** in the name fields without any validation errors.
+
+
+#### 🔥 Severity
+
+**Medium**
+
+![](https://github.com/dlulanep/PLP-Database-DEPT-CleanCity/blob/508fb35f79e699d9bd8c3d3345500020dbd63ca2/tests/Screenshots/Pickup_Name.png)
+
+Issue link: https://github.com/dlulanep/PLP-Database-DEPT-CleanCity/issues/6#issue-3227600795
+
+
 ---
 
 ## 5. Recommendations
