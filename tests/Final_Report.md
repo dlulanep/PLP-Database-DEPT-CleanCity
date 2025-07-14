@@ -177,7 +177,7 @@ Medium – This can lead to incorrect data records and scheduling conflicts.
 Status:
 Open
 
-Form Validation: https://github.com/dlulanep/PLP-Database-DEPT-CleanCity/blob/main/tests/Screenshots/Form_Validation%20_Testing_Date.PNG
+![Form Validation](https://github.com/dlulanep/PLP-Database-DEPT-CleanCity/blob/main/tests/Screenshots/Form_Validation%20_Testing_Date.PNG)
 
 Issue Link: https://github.com/dlulanep/PLP-Database-DEPT-CleanCity/issues/4
 ---
