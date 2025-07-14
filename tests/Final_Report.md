@@ -28,13 +28,15 @@
 | Validation.js     | Testing the validation form          | Passed  |
 | Confirm_pickup.js | Testing confirm pickup sample        | Passed  |
 
-**Coverage Summary:**  
+**Coverage Summary:** 
+---mermaid
 pie  
     title Coverage Summary 
     "Statements" :20 
     "Branches" :10  
     "Functions" :70
     "Lines" :0
+ ---   
 
 ---
 
