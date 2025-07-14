@@ -180,7 +180,7 @@
 
 ![TC-ADMIN-001 Image](https://github.com/dlulanep/PLP-Database-DEPT-CleanCity/blob/8cf3384fcb6d0ce145937ece7b2e677ac6d60ec8/tests/Screenshots/Screenshot%202025-07-08%20221811.png)
 
-**Actual Result**:  
+**Actual Result**:  Table list all requests from all users
 **Status**: ✅ Passed  
 **Tested By**: Steven Odhiambo
 
@@ -222,7 +222,7 @@
 **Expected Result**:
 - Navigation menu appears full-width and accessible
 
-**Actual Result**:  
+**Actual Result**:  The responsiveness is good
 **Status**: ✅ Passed  
 **Tested By**: Steven Odhiambo
 
@@ -244,9 +244,9 @@
 **Expected Result**:
 - Screen reader reads labels correctly
 
-**Actual Result**:  
-**Status**: 🟡 Pending  
-**Tested By**: [Name]
+**Actual Result**:  Screen reader reads labels correctly
+**Status**:   ✅ Passed 
+**Tested By**: Steven Odhiambo
 
 ---
 
