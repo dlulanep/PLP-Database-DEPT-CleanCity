@@ -137,8 +137,8 @@
 - Post details appear with content, author, date
 
 **Actual Result**:  
-**Status**: 🟡 Pending  
-**Tested By**: [Name]
+**Status**: ✅ Passed   
+**Tested By**: Steven Odhiambo
 
 ---
 
@@ -159,8 +159,8 @@
 - Post appears in feed with timestamp and author
 
 **Actual Result**:  
-**Status**: 🟡 Pending  
-**Tested By**: [Name]
+**Status**: ✅ Passed   
+**Tested By**: Steven Odhiambo
 
 ---
 
@@ -180,7 +180,7 @@
 
 ![TC-ADMIN-001 Image](https://github.com/dlulanep/PLP-Database-DEPT-CleanCity/blob/8cf3384fcb6d0ce145937ece7b2e677ac6d60ec8/tests/Screenshots/Screenshot%202025-07-08%20221811.png)
 
-**Actual Result**:  
+**Actual Result**:  Table list all requests from all users
 **Status**: ✅ Passed  
 **Tested By**: Steven Odhiambo
 
@@ -202,8 +202,8 @@
 - Notification appears in user bell with correct message
 
 **Actual Result**:  
-**Status**: 🟡 Pending  
-**Tested By**: [Name]
+**Status**: ✅ Passed   
+**Tested By**: Steven Odhiambo
 
 ---
 
@@ -222,9 +222,11 @@
 **Expected Result**:
 - Navigation menu appears full-width and accessible
 
-**Actual Result**:  
-**Status**: 🟡 Pending  
-**Tested By**: [Name]
+**Actual Result**:  The responsiveness is good
+**Status**: ✅ Passed  
+**Tested By**: Steven Odhiambo
+
+![](https://github.com/dlulanep/PLP-Database-DEPT-CleanCity/blob/c84a925b1d5d163c206cf15a0142e8aa27482313/tests/Screenshots/Responsiveness_Screenshot.png)
 
 ---
 
@@ -242,9 +244,11 @@
 **Expected Result**:
 - Screen reader reads labels correctly
 
-**Actual Result**:  
-**Status**: 🟡 Pending  
-**Tested By**: [Name]
+**Actual Result**:  Screen reader reads labels correctly
+
+**Status**:   ✅ Passed 
+
+**Tested By**: Steven Odhiambo
 
 ---
 
