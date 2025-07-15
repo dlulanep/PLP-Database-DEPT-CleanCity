@@ -2,7 +2,8 @@
 
 **Project:** CleanCity: Waste Pickup Scheduler  
 **Date:** July 4, 2025  
-**Tested By:** Pathiswa Dlulane  , Nosipho Mdakanbe
+**Tested By:** Pathiswa Dlulane  , Nosipho Mdakanbe, Steven Odhiambo
+
 **Group Members:**Nosipho, Steven Odhiambo, Pathiswa Dlulane
 
 **Test Framework:** Automated Jest (unit tests), Manual UI Testing, 
