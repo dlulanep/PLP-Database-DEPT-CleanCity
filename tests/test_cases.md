@@ -137,8 +137,8 @@
 - Post details appear with content, author, date
 
 **Actual Result**:  
-**Status**: 🟡 Pending  
-**Tested By**: [Name]
+**Status**: ✅ Passed   
+**Tested By**: Steven Odhiambo
 
 ---
 
@@ -159,8 +159,8 @@
 - Post appears in feed with timestamp and author
 
 **Actual Result**:  
-**Status**: 🟡 Pending  
-**Tested By**: [Name]
+**Status**: ✅ Passed   
+**Tested By**: Steven Odhiambo
 
 ---
 
@@ -202,8 +202,8 @@
 - Notification appears in user bell with correct message
 
 **Actual Result**:  
-**Status**: 🟡 Pending  
-**Tested By**: [Name]
+**Status**: ✅ Passed   
+**Tested By**: Steven Odhiambo
 
 ---
 
