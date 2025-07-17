@@ -500,29 +500,46 @@ Issue Link: https://github.com/dlulanep/PLP-Database-DEPT-CleanCity/issues/17#is
 
 ## 5. Recommendations
 
-- Add more unit tests for form validation and business logic in `script.js`.
-- Consider automated end-to-end tests (e.g., Cypress, Playwright) for UI flows.
-- Improve error handling for network failures.
+## 🔧 Recommendations for Development Team
 
-To improve accessibility and comply with WCAG 2.1 Level AA standards:
+To improve the overall reliability, accessibility, and user experience of the application, the following actions are recommended:
 
-- Ensure all images have descriptive alt attributes that convey the meaning or purpose of the image. This allows screen readers to interpret the content for visually impaired users and improves usability for all users relying on assistive technologies.
+---
 
-Additionally:
+### ✅ 1. Testing Enhancements
 
-- Decorative images can use alt="" to avoid cluttering screen reader output.
+- **Add more unit tests** for `form validation` and core `business logic` in `script.js` to improve code coverage and catch edge cases early.
+- **Implement automated end-to-end tests** using tools such as **Cypress** or **Playwright** to validate critical UI flows and user interactions across various scenarios.
 
-- For icons used as buttons or links, ensure they have aria-labels or text equivalents.
+---
 
-- Run Lighthouse and axe DevTools regularly to catch accessibility regressions.
+### ❗ 2. Error Handling Improvements
 
-- Add client-side and server-side validation to ensure the date field:
+- Enhance **network failure handling** by implementing proper error messages, retry logic (if applicable), and fallback behaviors to ensure a smoother user experience during connectivity issues.
 
-- Does not accept dates earlier than the current date.
+---
 
-- Is marked as a required field.
+### ♿ 3. Accessibility Compliance (WCAG 2.1 Level AA)
 
-- Consider using HTML5 attributes like required and min on the date input, backed by logic validation in JavaScript or backend code.
+To improve accessibility and align with international standards:
+
+- Ensure **all images** include **descriptive `alt` attributes** that accurately convey their purpose or content. This is crucial for screen reader compatibility.
+- Use `alt=""` for **decorative images** to avoid unnecessary noise in screen reader output.
+- For **icon buttons or links**, include `aria-labels` or visible **text equivalents** to ensure the functionality is communicated clearly.
+- Regularly audit the application using tools like **Lighthouse** and **axe DevTools** to identify and resolve accessibility regressions proactively.
+
+---
+
+### 📅 4. Date Field Validation
+
+Ensure robust validation for any **date input fields**:
+
+- The field should **reject past dates** and only allow current or future selections.
+- Mark the field as **required** on both the **client side (`required` attribute)** and **server side**.
+- Use additional constraints like `min` in the HTML markup and validate in JavaScript or backend logic to guard against manipulation.
+
+---
+
 
 ---
 
